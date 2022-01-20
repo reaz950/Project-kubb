@@ -318,9 +318,50 @@ body{
 }
 
 
+/* Footer part css start  */
+#footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #373737;
+}
 
+.footer-main{
+    display: flex;
+    justify-content:space-between;
+    padding-bottom: 30px;
+}
 
+.footer-item{
+    width: 24%;
+}
 
+.footer-head h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight:700;
+    color: #f0f0f0;
+    padding-bottom: 25px;
+}
 
+.footer-item p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight:400;
+    color: #cacaca;
+    padding-bottom: 15px;
+}
 
+.footer-end{
+    color: #cacaca;
+    height: 60px;
+    line-height: 60px;
+    background: #000;
+}
+
+.footer-end p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight:400;
+    margin-left: 10px;
+}
 
