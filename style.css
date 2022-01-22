@@ -221,6 +221,10 @@ body{
     margin-left: 15px;
 }
 
+.instra-buttom {
+
+}
+
 .instra-buttom h3{
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
@@ -229,7 +233,10 @@ body{
     color: #a6a6a6;
     margin-top: 30px;
     border: 1px solid #a6a6a6;
-
+    width: 200px;
+    margin: 0 auto;
+    padding: 10px 20px;
+  
 }
 
 /* Journal part css start */
@@ -246,25 +253,29 @@ body{
     position: relative;
     padding-bottom: 50px;
 }
-/* 
+
 .journal-head h2::before {
     position: absolute;
     content: '';
+    border-top: 2px solid red;
+    border-bottom: 2px solid blue;
     top: 10px;
-    left: 500px;
+    left: 400px;
     width: 100px;
     height: 3px;
     background: #d9d9d9;
 }
 .journal-head h2::after {
-    position:  relative;
+    position:  absolute;
     content: '';
+    border-top: 2px solid red;
+    border-bottom: 2px solid blue;
     top: 10px;
-    left: 800px;
+    left: 680px;
     width: 100px;
     height: 3px;
     background: #d9d9d9;
-} */
+} 
 .journal-itemsall{
     display: flex;
     justify-content:space-between;
